@@ -3,11 +3,11 @@ create type film_stats as (
 	votes integer,
 	rating real,
 	filmid text 
-)
+);
 
 create type scoring_category as enum (
 	'star', 'good', 'average', 'bad'
-)
+);
 
 create table actors (
 	actor text,
@@ -17,5 +17,5 @@ create table actors (
 	is_active boolean,
 	year integer,
 	primary key (actorid, year)
-)
+);
 	
