@@ -8,7 +8,7 @@
 
  with yesterday AS (
     SELECT * FROM users_cumulated
-    WHERE date = DATE('202-01-01')
+    WHERE date = DATE('2023-01-01')
 ),
     today AS (
         select
